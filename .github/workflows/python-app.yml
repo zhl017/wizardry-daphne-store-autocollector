@@ -5,7 +5,7 @@ name: Global Webstore Autocollector
 
 on:
   schedule:
-    - cron: "0 11 * * 1"
+    - cron: "0 0 * * 1"
   workflow_dispatch:
 
 permissions:
